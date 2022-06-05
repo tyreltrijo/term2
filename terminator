@@ -1,0 +1,872 @@
+-- Terminator Hub
+-- Made By: Tyrel Batutuy
+-- Version: 1.0
+
+-- Comment From Owner: If You Wanna Showcase This Please Put A Credit I Would Really Appreciate It!
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Script = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Guis = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Fe = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Hub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Scriptstab = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Tp = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Walls = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Net = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Key = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Replicate = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Hit = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Guistab = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local Fling = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Blox = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Energy = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Invis = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Bed = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Fetab = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local Neko = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Among = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Cursed = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Sonic = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Floppa = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Universe = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Hubstab = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local Vhub = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Ez = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Eclipse = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Crypt = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Soon = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Soon2 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local AdminTab = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local Fates = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local Inf = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local Ruin = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local Septex = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Ntos = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local Cmd = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local Hometab = Instance.new("Frame")
+local UICorner_44 = Instance.new("UICorner")
+local Creds = Instance.new("TextLabel")
+local Owner = Instance.new("TextLabel")
+local Term = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(12, 9, 90)
+Frame.Position = UDim2.new(0.291565388, 0, 0.216649249, 0)
+Frame.Size = UDim2.new(0, 310, 0, 211)
+Frame.Active = true
+Frame.Draggable = true
+Frame.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = Frame
+
+Home.Name = "Home"
+Home.Parent = Frame
+Home.BackgroundColor3 = Color3.fromRGB(2, 25, 158)
+Home.Position = UDim2.new(0.0273972601, 0, 0.0224718973, 0)
+Home.Size = UDim2.new(0, 90, 0, 21)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 20)
+UICorner_2.Parent = Home
+
+Script.Name = "Script"
+Script.Parent = Frame
+Script.BackgroundColor3 = Color3.fromRGB(2, 25, 158)
+Script.Position = UDim2.new(0.0273972601, 0, 0.179775268, 0)
+Script.Size = UDim2.new(0, 90, 0, 21)
+Script.Font = Enum.Font.SourceSans
+Script.Text = "Scripts"
+Script.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 20)
+UICorner_3.Parent = Script
+
+Guis.Name = "Guis"
+Guis.Parent = Frame
+Guis.BackgroundColor3 = Color3.fromRGB(2, 25, 158)
+Guis.Position = UDim2.new(0.0239726026, 0, 0.337078631, 0)
+Guis.Size = UDim2.new(0, 90, 0, 21)
+Guis.Font = Enum.Font.SourceSans
+Guis.Text = "Guis"
+Guis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Guis.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 20)
+UICorner_4.Parent = Guis
+
+Fe.Name = "Fe"
+Fe.Parent = Frame
+Fe.BackgroundColor3 = Color3.fromRGB(2, 25, 158)
+Fe.Position = UDim2.new(0.0239726026, 0, 0.5, 0)
+Fe.Size = UDim2.new(0, 90, 0, 21)
+Fe.Font = Enum.Font.SourceSans
+Fe.Text = "Fe Scripts"
+Fe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fe.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 20)
+UICorner_5.Parent = Fe
+
+Hub.Name = "Hub"
+Hub.Parent = Frame
+Hub.BackgroundColor3 = Color3.fromRGB(2, 25, 158)
+Hub.Position = UDim2.new(0.0273972601, 0, 0.668539286, 0)
+Hub.Size = UDim2.new(0, 90, 0, 21)
+Hub.Font = Enum.Font.SourceSans
+Hub.Text = "Other Hubs"
+Hub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hub.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 20)
+UICorner_6.Parent = Hub
+
+Admin.Name = "Admin"
+Admin.Parent = Frame
+Admin.BackgroundColor3 = Color3.fromRGB(2, 25, 158)
+Admin.Position = UDim2.new(0.0209456477, 0, 0.838835895, 0)
+Admin.Size = UDim2.new(0, 90, 0, 21)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = "Admin Scripts"
+Admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admin.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = Admin
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.907534242, 0, 0, 0)
+Close.Size = UDim2.new(0, 27, 0, 25)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 4)
+Close.TextSize = 23.000
+Close.MouseButton1Click:Connect(function()
+	Open.Visible = true
+	Frame.Visible = false
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 20)
+UICorner_8.Parent = Close
+
+Scriptstab.Name = "Scriptstab"
+Scriptstab.Parent = Frame
+Scriptstab.BackgroundColor3 = Color3.fromRGB(0, 1, 108)
+Scriptstab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scriptstab.Position = UDim2.new(0.349911809, 0, 0.141487718, 0)
+Scriptstab.Size = UDim2.new(0, 160, 0, 156)
+
+UICorner_9.CornerRadius = UDim.new(0, 20)
+UICorner_9.Parent = Scriptstab
+
+Tp.Name = "Tp"
+Tp.Parent = Scriptstab
+Tp.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Tp.Position = UDim2.new(0.0410384648, 0, 0.147435904, 0)
+Tp.Size = UDim2.new(0, 66, 0, 32)
+Tp.Font = Enum.Font.SourceSans
+Tp.Text = "Tp Tool"
+Tp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tp.TextSize = 14.000
+Tp.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/A7HVaDLB'))()
+    end)
+
+UICorner_10.CornerRadius = UDim.new(0, 20)
+UICorner_10.Parent = Tp
+
+Walls.Name = "Walls"
+Walls.Parent = Scriptstab
+Walls.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Walls.Position = UDim2.new(0.54327184, 0, 0.147435904, 0)
+Walls.Size = UDim2.new(0, 66, 0, 32)
+Walls.Font = Enum.Font.SourceSans
+Walls.Text = "Walk On Walls"
+Walls.TextColor3 = Color3.fromRGB(0, 0, 0)
+Walls.TextSize = 12.000
+Walls.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/RY9cBbdG'))()
+    end)
+
+UICorner_11.CornerRadius = UDim.new(0, 20)
+UICorner_11.Parent = Walls
+
+Net.Name = "Net"
+Net.Parent = Scriptstab
+Net.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Net.Position = UDim2.new(0.0410384648, 0, 0.397435904, 0)
+Net.Size = UDim2.new(0, 66, 0, 32)
+Net.Font = Enum.Font.SourceSans
+Net.Text = "Netless"
+Net.TextColor3 = Color3.fromRGB(0, 0, 0)
+Net.TextSize = 14.000
+Net.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/netless/main/netless'))()
+    end)
+
+UICorner_12.CornerRadius = UDim.new(0, 20)
+UICorner_12.Parent = Net
+
+Key.Name = "Key"
+Key.Parent = Scriptstab
+Key.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Key.Position = UDim2.new(0.54327184, 0, 0.397435904, 0)
+Key.Size = UDim2.new(0, 66, 0, 32)
+Key.Font = Enum.Font.SourceSans
+Key.Text = "Keyboard"
+Key.TextColor3 = Color3.fromRGB(0, 0, 0)
+Key.TextSize = 14.000
+Key.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+    end)
+
+UICorner_13.CornerRadius = UDim.new(0, 20)
+UICorner_13.Parent = Key
+
+Replicate.Name = "Replicate"
+Replicate.Parent = Scriptstab
+Replicate.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Replicate.Position = UDim2.new(0.0410384648, 0, 0.641025603, 0)
+Replicate.Size = UDim2.new(0, 66, 0, 32)
+Replicate.Font = Enum.Font.SourceSans
+Replicate.Text = "Replication Ui"
+Replicate.TextColor3 = Color3.fromRGB(0, 0, 0)
+Replicate.TextSize = 11.000
+Replicate.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/rM0LU2mJ'))()
+    end)
+
+UICorner_14.CornerRadius = UDim.new(0, 20)
+UICorner_14.Parent = Replicate
+
+Hit.Name = "Hit"
+Hit.Parent = Scriptstab
+Hit.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Hit.Position = UDim2.new(0.54327184, 0, 0.641025603, 0)
+Hit.Size = UDim2.new(0, 66, 0, 32)
+Hit.Font = Enum.Font.SourceSans
+Hit.Text = "Hitbox Extend"
+Hit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hit.TextSize = 11.000
+Hit.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Hit/main/Hitbox'))()
+    end)
+
+UICorner_15.CornerRadius = UDim.new(0, 20)
+UICorner_15.Parent = Hit
+
+Guistab.Name = "Guistab"
+Guistab.Parent = Frame
+Guistab.BackgroundColor3 = Color3.fromRGB(0, 1, 108)
+Guistab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Guistab.Position = UDim2.new(0.34991169, 0, 0.142366484, 0)
+Guistab.Size = UDim2.new(0, 160, 0, 156)
+
+UICorner_16.CornerRadius = UDim.new(0, 20)
+UICorner_16.Parent = Guistab
+
+Fling.Name = "Fling"
+Fling.Parent = Guistab
+Fling.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Fling.Position = UDim2.new(0.0410384648, 0, 0.147435904, 0)
+Fling.Size = UDim2.new(0, 66, 0, 32)
+Fling.Font = Enum.Font.SourceSans
+Fling.Text = "Fling Gui"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextSize = 14.000
+Fling.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+    end)
+
+UICorner_17.CornerRadius = UDim.new(0, 20)
+UICorner_17.Parent = Fling
+
+Blox.Name = "Blox"
+Blox.Parent = Guistab
+Blox.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Blox.Position = UDim2.new(0.54327184, 0, 0.147435904, 0)
+Blox.Size = UDim2.new(0, 66, 0, 32)
+Blox.Font = Enum.Font.SourceSans
+Blox.Text = "Bloxfruits Gui"
+Blox.TextColor3 = Color3.fromRGB(0, 0, 0)
+Blox.TextSize = 12.000
+Blox.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))()
+    end)
+
+UICorner_18.CornerRadius = UDim.new(0, 20)
+UICorner_18.Parent = Blox
+
+Energy.Name = "Energy"
+Energy.Parent = Guistab
+Energy.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Energy.Position = UDim2.new(0.0410384648, 0, 0.397435904, 0)
+Energy.Size = UDim2.new(0, 66, 0, 32)
+Energy.Font = Enum.Font.SourceSans
+Energy.Text = "Energize Gui"
+Energy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Energy.TextSize = 14.000
+Energy.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Energy/main/Energize'))()
+    end)
+
+UICorner_19.CornerRadius = UDim.new(0, 20)
+UICorner_19.Parent = Energy
+
+Invis.Name = "Invis"
+Invis.Parent = Guistab
+Invis.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Invis.Position = UDim2.new(0.54327184, 0, 0.397435904, 0)
+Invis.Size = UDim2.new(0, 66, 0, 32)
+Invis.Font = Enum.Font.SourceSans
+Invis.Text = "Invisible Gui"
+Invis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Invis.TextSize = 14.000
+Invis.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+    end)
+
+UICorner_20.CornerRadius = UDim.new(0, 20)
+UICorner_20.Parent = Invis
+
+Bed.Name = "Bed"
+Bed.Parent = Guistab
+Bed.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Bed.Position = UDim2.new(0.0410384648, 0, 0.641025603, 0)
+Bed.Size = UDim2.new(0, 66, 0, 32)
+Bed.Font = Enum.Font.SourceSans
+Bed.Text = "Bedwars Gui"
+Bed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bed.TextSize = 11.000
+Bed.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+    end)
+
+UICorner_21.CornerRadius = UDim.new(0, 20)
+UICorner_21.Parent = Bed
+
+Fly.Name = "Fly"
+Fly.Parent = Guistab
+Fly.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Fly.Position = UDim2.new(0.54327184, 0, 0.641025603, 0)
+Fly.Size = UDim2.new(0, 66, 0, 32)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly Gui"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+Fly.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Fly/main/Fly%20Gui'))()
+    end)
+
+UICorner_22.CornerRadius = UDim.new(0, 20)
+UICorner_22.Parent = Fly
+
+Fetab.Name = "Fetab"
+Fetab.Parent = Frame
+Fetab.BackgroundColor3 = Color3.fromRGB(0, 1, 108)
+Fetab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fetab.Position = UDim2.new(0.34991166, 0, 0.142366171, 0)
+Fetab.Size = UDim2.new(0, 160, 0, 156)
+
+UICorner_23.CornerRadius = UDim.new(0, 20)
+UICorner_23.Parent = Fetab
+
+Neko.Name = "Neko"
+Neko.Parent = Fetab
+Neko.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Neko.Position = UDim2.new(0.0410384648, 0, 0.147435904, 0)
+Neko.Size = UDim2.new(0, 66, 0, 32)
+Neko.Font = Enum.Font.SourceSans
+Neko.Text = "Neko Maid"
+Neko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Neko.TextSize = 14.000
+Neko.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/nek/main/NekoMaid'))()
+    end)
+
+UICorner_24.CornerRadius = UDim.new(0, 20)
+UICorner_24.Parent = Neko
+
+Among.Name = "Among"
+Among.Parent = Fetab
+Among.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Among.Position = UDim2.new(0.54327184, 0, 0.147435904, 0)
+Among.Size = UDim2.new(0, 66, 0, 32)
+Among.Font = Enum.Font.SourceSans
+Among.Text = "Among us"
+Among.TextColor3 = Color3.fromRGB(0, 0, 0)
+Among.TextSize = 14.000
+Among.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Amogus/main/Among%20Us'))()
+    end)
+
+UICorner_25.CornerRadius = UDim.new(0, 20)
+UICorner_25.Parent = Among
+
+Cursed.Name = "Cursed"
+Cursed.Parent = Fetab
+Cursed.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Cursed.Position = UDim2.new(0.0410384648, 0, 0.397435904, 0)
+Cursed.Size = UDim2.new(0, 66, 0, 32)
+Cursed.Font = Enum.Font.SourceSans
+Cursed.Text = "Cursed Spider"
+Cursed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cursed.TextSize = 12.000
+Cursed.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Cursed/main/Spdier'))()
+    end)
+
+UICorner_26.CornerRadius = UDim.new(0, 20)
+UICorner_26.Parent = Cursed
+
+Sonic.Name = "Sonic"
+Sonic.Parent = Fetab
+Sonic.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Sonic.Position = UDim2.new(0.54327184, 0, 0.397435904, 0)
+Sonic.Size = UDim2.new(0, 66, 0, 32)
+Sonic.Font = Enum.Font.SourceSans
+Sonic.Text = "Sonic"
+Sonic.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sonic.TextSize = 14.000
+Sonic.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/sonic/main/SOnic'))()
+    end)
+
+UICorner_27.CornerRadius = UDim.new(0, 20)
+UICorner_27.Parent = Sonic
+
+Floppa.Name = "Floppa"
+Floppa.Parent = Fetab
+Floppa.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Floppa.Position = UDim2.new(0.0410384648, 0, 0.641025603, 0)
+Floppa.Size = UDim2.new(0, 66, 0, 32)
+Floppa.Font = Enum.Font.SourceSans
+Floppa.Text = "Floppa"
+Floppa.TextColor3 = Color3.fromRGB(0, 0, 0)
+Floppa.TextSize = 14.000
+Floppa.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Floppa/main/Floppa'))()
+    end)
+
+UICorner_28.CornerRadius = UDim.new(0, 20)
+UICorner_28.Parent = Floppa
+
+Universe.Name = "Universe"
+Universe.Parent = Fetab
+Universe.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Universe.Position = UDim2.new(0.54327184, 0, 0.641025603, 0)
+Universe.Size = UDim2.new(0, 66, 0, 32)
+Universe.Font = Enum.Font.SourceSans
+Universe.Text = "Hat Universe"
+Universe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Universe.TextSize = 12.000
+Universe.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Hat/main/HatUniverse'))()
+    end)
+
+UICorner_29.CornerRadius = UDim.new(0, 20)
+UICorner_29.Parent = Universe
+
+Hubstab.Name = "Hubstab"
+Hubstab.Parent = Frame
+Hubstab.BackgroundColor3 = Color3.fromRGB(0, 1, 108)
+Hubstab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hubstab.Position = UDim2.new(0.346686125, 0, 0.141487718, 0)
+Hubstab.Size = UDim2.new(0, 160, 0, 156)
+
+UICorner_30.CornerRadius = UDim.new(0, 20)
+UICorner_30.Parent = Hubstab
+
+Vhub.Name = "Vhub"
+Vhub.Parent = Hubstab
+Vhub.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Vhub.Position = UDim2.new(0.0410384648, 0, 0.147435904, 0)
+Vhub.Size = UDim2.new(0, 66, 0, 32)
+Vhub.Font = Enum.Font.SourceSans
+Vhub.Text = "Vhub"
+Vhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Vhub.TextSize = 14.000
+Vhub.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+    end)
+
+UICorner_31.CornerRadius = UDim.new(0, 20)
+UICorner_31.Parent = Vhub
+
+Ez.Name = "Ez"
+Ez.Parent = Hubstab
+Ez.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Ez.Position = UDim2.new(0.54327184, 0, 0.147435904, 0)
+Ez.Size = UDim2.new(0, 66, 0, 32)
+Ez.Font = Enum.Font.SourceSans
+Ez.Text = "Ez Hub"
+Ez.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ez.TextSize = 15.000
+Ez.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+    end)
+
+UICorner_32.CornerRadius = UDim.new(0, 20)
+UICorner_32.Parent = Ez
+
+Eclipse.Name = "Eclipse"
+Eclipse.Parent = Hubstab
+Eclipse.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Eclipse.Position = UDim2.new(0.0410384648, 0, 0.397435904, 0)
+Eclipse.Size = UDim2.new(0, 66, 0, 32)
+Eclipse.Font = Enum.Font.SourceSans
+Eclipse.Text = "Mm 2 Hub"
+Eclipse.TextColor3 = Color3.fromRGB(0, 0, 0)
+Eclipse.TextSize = 14.000
+Eclipse.MouseButton1Down:connect(function()
+    
+    end)
+
+UICorner_33.CornerRadius = UDim.new(0, 20)
+UICorner_33.Parent = Eclipse
+
+Crypt.Name = "Crypt"
+Crypt.Parent = Hubstab
+Crypt.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Crypt.Position = UDim2.new(0.54327184, 0, 0.397435904, 0)
+Crypt.Size = UDim2.new(0, 66, 0, 32)
+Crypt.Font = Enum.Font.SourceSans
+Crypt.Text = "Cryptonic Hub"
+Crypt.TextColor3 = Color3.fromRGB(0, 0, 0)
+Crypt.TextSize = 12.000
+Crypt.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+    end)
+
+UICorner_34.CornerRadius = UDim.new(0, 20)
+UICorner_34.Parent = Crypt
+
+Soon.Name = "Soon"
+Soon.Parent = Hubstab
+Soon.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Soon.Position = UDim2.new(0.0410384648, 0, 0.641025603, 0)
+Soon.Size = UDim2.new(0, 66, 0, 32)
+Soon.Font = Enum.Font.SourceSans
+Soon.Text = "Coming Soon"
+Soon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon.TextSize = 13.000
+
+UICorner_35.CornerRadius = UDim.new(0, 20)
+UICorner_35.Parent = Soon
+
+Soon2.Name = "Soon2"
+Soon2.Parent = Hubstab
+Soon2.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Soon2.Position = UDim2.new(0.54327184, 0, 0.641025603, 0)
+Soon2.Size = UDim2.new(0, 66, 0, 32)
+Soon2.Font = Enum.Font.SourceSans
+Soon2.Text = "Coming Soon"
+Soon2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon2.TextSize = 13.000
+
+UICorner_36.CornerRadius = UDim.new(0, 20)
+UICorner_36.Parent = Soon2
+
+AdminTab.Name = "AdminTab"
+AdminTab.Parent = Frame
+AdminTab.BackgroundColor3 = Color3.fromRGB(0, 1, 108)
+AdminTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AdminTab.Position = UDim2.new(0.346686155, 0, 0.141487718, 0)
+AdminTab.Size = UDim2.new(0, 160, 0, 156)
+
+UICorner_37.CornerRadius = UDim.new(0, 20)
+UICorner_37.Parent = AdminTab
+
+Fates.Name = "Fates"
+Fates.Parent = AdminTab
+Fates.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Fates.Position = UDim2.new(0.0410384648, 0, 0.147435904, 0)
+Fates.Size = UDim2.new(0, 66, 0, 32)
+Fates.Font = Enum.Font.SourceSans
+Fates.Text = "Fates Admin"
+Fates.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fates.TextSize = 14.000
+Fates.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+    end)
+
+UICorner_38.CornerRadius = UDim.new(0, 20)
+UICorner_38.Parent = Fates
+
+Inf.Name = "Inf"
+Inf.Parent = AdminTab
+Inf.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Inf.Position = UDim2.new(0.54327184, 0, 0.147435904, 0)
+Inf.Size = UDim2.new(0, 66, 0, 32)
+Inf.Font = Enum.Font.SourceSans
+Inf.Text = "Infinite Yield"
+Inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inf.TextSize = 13.000
+Inf.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
+
+UICorner_39.CornerRadius = UDim.new(0, 20)
+UICorner_39.Parent = Inf
+
+Ruin.Name = "Ruin"
+Ruin.Parent = AdminTab
+Ruin.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Ruin.Position = UDim2.new(0.0410384648, 0, 0.397435904, 0)
+Ruin.Size = UDim2.new(0, 66, 0, 32)
+Ruin.Font = Enum.Font.SourceSans
+Ruin.Text = "Prison Ruiner"
+Ruin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ruin.TextSize = 13.000
+Ruin.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Ruin/main/PrisonRuiner'))()
+    end)
+
+UICorner_40.CornerRadius = UDim.new(0, 20)
+UICorner_40.Parent = Ruin
+
+Septex.Name = "Septex"
+Septex.Parent = AdminTab
+Septex.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Septex.Position = UDim2.new(0.54327184, 0, 0.397435904, 0)
+Septex.Size = UDim2.new(0, 66, 0, 32)
+Septex.Font = Enum.Font.SourceSans
+Septex.Text = "Septex Admin"
+Septex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Septex.TextSize = 13.000
+Septex.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+    end)
+
+UICorner_41.CornerRadius = UDim.new(0, 20)
+UICorner_41.Parent = Septex
+
+Ntos.Name = "Ntos"
+Ntos.Parent = AdminTab
+Ntos.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Ntos.Position = UDim2.new(0.0410384648, 0, 0.641025603, 0)
+Ntos.Size = UDim2.new(0, 66, 0, 32)
+Ntos.Font = Enum.Font.SourceSans
+Ntos.Text = "Revis Admin"
+Ntos.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ntos.TextSize = 13.000
+Ntos.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/pyzjWNhk'),true))()
+    end)
+
+UICorner_42.CornerRadius = UDim.new(0, 20)
+UICorner_42.Parent = Ntos
+
+Cmd.Name = "Cmd"
+Cmd.Parent = AdminTab
+Cmd.BackgroundColor3 = Color3.fromRGB(5, 22, 173)
+Cmd.Position = UDim2.new(0.54327184, 0, 0.641025603, 0)
+Cmd.Size = UDim2.new(0, 66, 0, 32)
+Cmd.Font = Enum.Font.SourceSans
+Cmd.Text = "Cmd X"
+Cmd.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cmd.TextSize = 20.000
+Cmd.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+    end)
+
+UICorner_43.CornerRadius = UDim.new(0, 20)
+UICorner_43.Parent = Cmd
+
+Hometab.Name = "Hometab"
+Hometab.Parent = Frame
+Hometab.BackgroundColor3 = Color3.fromRGB(0, 1, 108)
+Hometab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hometab.Position = UDim2.new(0.346686006, 0, 0.141487896, 0)
+Hometab.Size = UDim2.new(0, 160, 0, 156)
+
+UICorner_44.CornerRadius = UDim.new(0, 20)
+UICorner_44.Parent = Hometab
+
+Creds.Name = "Creds"
+Creds.Parent = Hometab
+Creds.BackgroundColor3 = Color3.fromRGB(0, 0, 170)
+Creds.Position = UDim2.new(0.0350061432, 0, 0.0897435918, 0)
+Creds.Size = UDim2.new(0, 150, 0, 21)
+Creds.Font = Enum.Font.SourceSans
+Creds.Text = "Credits"
+Creds.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creds.TextSize = 14.000
+
+Owner.Name = "Owner"
+Owner.Parent = Hometab
+Owner.BackgroundColor3 = Color3.fromRGB(0, 0, 170)
+Owner.Position = UDim2.new(0.0285387076, 0, 0.275641024, 0)
+Owner.Size = UDim2.new(0, 152, 0, 21)
+Owner.Font = Enum.Font.SourceSans
+Owner.Text = "Tyrelbro#9012"
+Owner.TextColor3 = Color3.fromRGB(0, 0, 0)
+Owner.TextSize = 14.000
+
+Term.Name = "Term"
+Term.Parent = Hometab
+Term.BackgroundColor3 = Color3.fromRGB(0, 0, 170)
+Term.Position = UDim2.new(0.0350061432, 0, 0.43589744, 0)
+Term.Size = UDim2.new(0, 150, 0, 70)
+Term.Font = Enum.Font.Cartoon
+Term.Text = "Terminator Hub"
+Term.TextColor3 = Color3.fromRGB(255, 0, 0)
+Term.TextSize = 19.000
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(0, 13, 131)
+Open.Position = UDim2.new(0.167783156, 0, 0.349584192, 0)
+Open.Size = UDim2.new(0, 50, 0, 51)
+Open.Font = Enum.Font.Sarpanch
+Open.Text = "T"
+Open.TextColor3 = Color3.fromRGB(255, 0, 0)
+Open.TextSize = 46.000
+Open.Draggable = true
+Open.MouseButton1Click:Connect(function()
+	Frame.Visible = true
+	Open.Visible = false
+end)
+
+UICorner_45.CornerRadius = UDim.new(0, 100)
+UICorner_45.Parent = Open
+
+-- Scripts:
+
+local function HOHKUWX_fake_script() -- Home.LocalScript 
+	local script = Instance.new('LocalScript', Home)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Hometab.Visible = true
+		script.Parent.Parent.Hubstab.Visible = false
+		script.Parent.Parent.Guistab.Visible = false
+		script.Parent.Parent.Fetab.Visible = false
+		script.Parent.Parent.Scriptstab.Visible = false
+		script.Parent.Parent.AdminTab.Visible = false
+	end)
+end
+coroutine.wrap(HOHKUWX_fake_script)()
+local function EEEJZ_fake_script() -- Script.LocalScript 
+	local script = Instance.new('LocalScript', Script)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Scriptstab.Visible = true
+		script.Parent.Parent.Hometab.Visible = false
+		script.Parent.Parent.Guistab.Visible = false
+		script.Parent.Parent.Fetab.Visible = false
+		script.Parent.Parent.Hubstab.Visible = false
+		script.Parent.Parent.AdminTab.Visible = false
+	end)
+end
+coroutine.wrap(EEEJZ_fake_script)()
+local function BGFFDBZ_fake_script() -- Guis.LocalScript 
+	local script = Instance.new('LocalScript', Guis)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Guistab.Visible = true
+		script.Parent.Parent.Hubstab.Visible = false
+		script.Parent.Parent.Hometab.Visible = false
+		script.Parent.Parent.Fetab.Visible = false
+		script.Parent.Parent.Scriptstab.Visible = false
+		script.Parent.Parent.AdminTab.Visible = false
+	end)
+end
+coroutine.wrap(BGFFDBZ_fake_script)()
+local function KAVUVFZ_fake_script() -- Fe.LocalScript 
+	local script = Instance.new('LocalScript', Fe)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Fetab.Visible = true
+		script.Parent.Parent.Hometab.Visible = false
+		script.Parent.Parent.Scriptstab.Visible = false
+		script.Parent.Parent.Guistab.Visible = false
+	end)
+end
+coroutine.wrap(KAVUVFZ_fake_script)()
+local function GXUX_fake_script() -- Hub.LocalScript 
+	local script = Instance.new('LocalScript', Hub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Hubstab.Visible = true
+		script.Parent.Parent.Hometab.Visible = false
+		script.Parent.Parent.Guistab.Visible = false
+		script.Parent.Parent.Fetab.Visible = false
+		script.Parent.Parent.Scriptstab.Visible = false
+		script.Parent.Parent.AdminTab.Visible = false
+	end)
+end
+coroutine.wrap(GXUX_fake_script)()
+local function ABLESIS_fake_script() -- Admin.LocalScript 
+	local script = Instance.new('LocalScript', Admin)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.AdminTab.Visible = true
+		script.Parent.Parent.Hubstab.Visible = false
+		script.Parent.Parent.Guistab.Visible = false
+		script.Parent.Parent.Fetab.Visible = false
+		script.Parent.Parent.Scriptstab.Visible = false
+		script.Parent.Parent.Hometab.Visible = false
+	end)
+end
